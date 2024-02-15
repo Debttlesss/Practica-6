@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Rainbow</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+            function Rainbow () {
+                document.getElementById("Rojo").style.color='red';
+                document.getElementById("Naranja").style.color='orange';
+                document.getElementById("Verde").style.color='green';
+                document.getElementById("Amarillo").style.color='yellow';
+                document.getElementById("Azul_Claro").style.color='lightblue';
+                document.getElementById("Azul").style.color='blue';
+                document.getElementById("Morado").style.color='purple';
+            }
+           
+        </script>
+
+    </head>
+
+    <body>
+
+        <header class="fondo">
+            <h1 onmouseover="Rainbow()" onmouseout="Black()" >Arc de Sant Martí </h1>
+        </header>
+
+        <div>
+
+            <p onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">roig,red,rojo</p>
+            <p onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'" > taronja, orange, naranja</p>
+            <p onmouseover="this.style.color='yellow'" onmouseout="this.style.color='black'">groc,yellow,amarillo</p>
+            <p onmouseover="this.style.color='green'" onmouseout="this.style.color='black'">verd,green,verde</p>
+            <p onmouseover="this.style.color='lightblue'" onmouseout="this.style.color='black'">blau calr, light blue, azul claro</p>
+            <p onmouseover="this.style.color='blue'" onmouseout="this.style.color='black'">blau, blue, azul</p>
+            <p onmouseover="this.style.color='purple'" onmouseout="this.style.color='black'">morat, purple, morado</p>
+            
+        </div>   
+        <hr>
+        <div>
+
+            <p id="Rojo" >roig,red,rojo</p>
+            <p id="Naranja" >taronja, orange, naranja</p>
+            <p id="Amarillo" >groc,yellow,amarillo</p>
+            <p id="Verde">verd,green,verde</p>
+            <p id="Azul_Claro"  >blau calr, light blue, azul claro</p>
+            <p id="Azul" >blau, blue, azul</p>
+            <p id="Morado" >morat, purple, morado</p>
+            
+        </div>
+
+    </body>
+</html>
